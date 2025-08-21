@@ -6,7 +6,7 @@ import os
 def download_video():
     # 1. 构造当日视频URL（根据实际日期规律调整）
     today = datetime.now().strftime("%Y%m%d")
-    video_url = f"https://www.zjqzqx.com/www/服务材料/天气预报视频/{datetime.now().strftime('%Y.%m')}/{today}/{today}tv1VA0_fwzx_电视天气预报_{today}152600.mp4"
+    video_url = f" "
     
     # 2. 伪装浏览器访问
     headers = {

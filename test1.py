@@ -8,8 +8,8 @@ headers = {
     'Referer': 'https://www.zjqzqx.com/'
 }
 
-# 测试1：直接请求视频URL（你提供的示例）
-video_url = "https://www.zjqzqx.com/www/%E6%9C%8D%E5%8A%A1%E6%9D%90%E6%96%99/%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5%E8%A7%86%E9%A2%91/2025.08/20250808/0808tv1VA0_fwzx_%E7%94>
+# 测试1
+video_url = " "
 response = requests.get(video_url, headers=headers)
 
 # 检查响应状态和内容类型
